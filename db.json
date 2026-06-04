@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Manager",
+      "email": "manager@test.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": "2",
+      "name": "Collaborator",
+      "email": "user@test.com",
+      "password": "123456",
+      "role": "collaborator"
+    }
+  ],
+  "projects": [
+    {
+      "name": "apuesta",
+      "description": "1000",
+      "status": "terminado",
+      "assignedTo": "1",
+      "createdAt": "4/6/2026, 16:30:19",
+      "id": "gRYvdKHrs6c"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
